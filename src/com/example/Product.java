@@ -71,7 +71,7 @@ public class Product {
 
 	@Override
 	public String toString() {
-		return String.format("%-10s%7,d%7,d%7,d%7,d%10,d%10.2f",
+		return String.format("%-10s%,7d%,7d%,7d%,7d%,15d%10.2f",
 				name, su, selprice, buyprice, transport, money, rate);
 	}
 	
